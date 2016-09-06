@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+  <link href="css/game.css" rel="stylesheet">
+</head>
+<body>
+<section id="game">
+    <section id="game_scene">
+        <h1 id="title">星际大战</h1>
+        <canvas id="game_canvas" width="600" height="450" style="margin-top:100px">
+            Your Browser does not support canvas.
+        </canvas>
+    </section>
+</section>
+<section id="audios">
+    <audio id="backAudio" loop >
+        <source src="media/background.ogg">
+    </audio>
+    <audio  id="">
+        <source src="media/ChangeScene.ogg">
+    </audio>
+    <audio id="enemyExplodeAudio">
+    <source src="media/ExplosionEnemy.wav">
+</audio>
+    <audio id="playExplodeAudio" >
+    <source src="media/ExplosionPlayer.wav">
+</audio>
+    <audio  id="shootAudio">
+        <source src="media/Shoot.wav">
+    </audio>
+
+</section>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/Point.js"></script>
+<script src="js/Utils.js"></script>
+<script src="js/KeyControl.js"></script>
+<script src="js/Background.js"></script>
+<script src="js/Bullet.js"></script>
+<script src="js/Player.js"></script>
+<script src="js/Enemy.js"></script>
+<script src="js/othersEnemy.js"></script>
+<script src="js/Director.js"></script>
+<script src="js/Main.js"></script>
+</body>
+</html>

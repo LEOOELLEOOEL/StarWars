@@ -1,0 +1,20 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background: url("../images/Background.jpg");
+
+}
+#game,#game_canvas,#game_scene{
+    margin: 0 auto;
+}
+canvas{
+    margin: 0 auto;
+    background-color: darkorchid;
+    border: 10px darkgray solid;
+    border-radius: 30px;
+}
+h1{
+
+    font-size: 30px;
+
+}
